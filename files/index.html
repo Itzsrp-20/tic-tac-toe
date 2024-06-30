@@ -1,0 +1,65 @@
+<!-- This is the HTML page of the game TIC TAC TOE -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic tac toe</title>
+    <link href="./style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- This is the block of the main screen in the game -->
+    <div class="main-screen">
+        <div class="main-title">
+            TIC TAC TOE
+        </div>
+        <div class="single player">VS COMPUTER</div>
+        <div class="two player">2 PLAYERS</div>
+    </div>
+    
+    <!-- This screen asks the difficulty for the player to play -->
+    <div class="difficulty-screen">
+        <div class="main-title">
+            SET DIFFICULTY
+        </div>
+        <div class="single player">EASY</div>
+        <div class="two player">HARD</div>
+    </div>
+    
+    <!-- Main container or page which contains the playable game -->
+    <div class="container">
+        <div class="main-title">
+            TIC TAC TOE
+        </div>
+        <div class="grid-container">
+            <button class="but one">1</button>
+            <button class="but two">2</button>
+            <button class="but three">3</button>
+            <button class="but four">4</button>
+            <button class="but five">5</button>
+            <button class="but six">6</button>
+            <button class="but seven">7</button>
+            <button class="but eight">8</button>
+            <button class="but nine">9</button>
+        </div>
+        <div class="comp_think">COMPUTER IS THINKING...</div>
+        <!-- Displays the end screen for the game -->
+        <div class="winner">
+            <button class="refresh"><img src="../icons/refresh.png" width="50px" height="50px" border-radius="10%"> </button>
+        </div>
+
+    </div>
+
+    <!-- footer of the page -->
+    <footer class="footer">
+        <hr>
+        © 2024       SHASHANK R P    
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
